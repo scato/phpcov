@@ -69,3 +69,10 @@ Make sure you have `~/.composer/vendor/bin/` in your path.
     phpcov 2.0.0 by Sebastian Bergmann.
 
     Generating code coverage report in Clover XML format ... done
+
+### Generating reports from a .cov file
+
+    $ phpcov report tmp/coverage.cov --clover coverage.xml
+    phpcov <unreleased> by Sebastian Bergmann.
+
+    Generating code coverage report in Clover XML format ... done
