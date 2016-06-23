@@ -50,6 +50,12 @@ class ReportCommand extends BaseCommand
                  'Generate code coverage report in HTML format'
              )
              ->addOption(
+                 'php',
+                 null,
+                 InputOption::VALUE_REQUIRED,
+                 'Export code coverage object to file'
+             )
+             ->addOption(
                  'text',
                  null,
                  InputOption::VALUE_NONE,
