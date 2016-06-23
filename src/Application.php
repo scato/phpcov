@@ -30,6 +30,7 @@ class Application extends AbstractApplication
         $this->add(new ExecuteCommand);
         $this->add(new MergeCommand);
         $this->add(new PatchCoverageCommand);
+        $this->add(new ReportCommand);
     }
 
     /**
